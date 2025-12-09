@@ -1,0 +1,69 @@
+baseURL = "https://portfoliohubs.github.io/COURSE/"
+languageCode = "ar"
+title = "Mastering Dental Photography" # اسم الموقع
+theme = []
+
+[params]
+  whatsapp = "201000000000" # رقم الواتس الأساسي
+  phone = "+201000000000"   # رقم الاتصال الأساسي
+
+  # 🎨 الألوان (ستايل أكاديمي فخم)
+  [params.style]
+    primary = "#1e293b"    # كحلي غامق (الخلفية)
+    card_bg = "#334155"    # رمادي مزرق (الكروت)
+    accent = "#fbbf24"     # ذهبي (للأزرار المهمة CTA)
+    text = "#f8fafc"       # أبيض
+    text_muted = "#cbd5e1" # رمادي فاتح
+
+  # 🚀 SEO
+  [params.seo]
+    description = "كورس مكثف في تصوير الأسنان الاحترافي. تعلم كيفية توثيق حالاتك بدقة. احجز مقعدك الآن."
+    keywords = "كورس أسنان, dental photography course, DSD, تجميل أسنان, ورشة عمل"
+    og_image = "https://user-images.githubusercontent.com/12345/course-cover.jpg" # صورة الرابط
+
+  # 🎓 بيانات الكورس (الهيرو)
+  [params.hero]
+    title = "كورس احتراف تصوير الأسنان"
+    subtitle = "يومان من التدريب العملي المكثف (Hands-on) لرفع مستوى توثيق حالاتك."
+    cta_text = "احجز مقعدك الآن (خصم مبكر)"
+
+  # ℹ️ شريط المعلومات السريع
+  [params.course_info]
+    date = "25 - 26 أكتوبر 2025"
+    location = "فندق الماسة، القاهرة"
+    price = "3500 EGP"
+    seats = "متبقي 5 مقاعد فقط"
+
+  # 👨‍🏫 المحاضر
+  [params.instructor]
+    name = "د. أحمد علي"
+    title = "عضو الجمعية الأمريكية لتجميل الأسنان (AACD)"
+    bio = "خبرة 15 عاماً في طب الأسنان التجميلي، ومحاضر دولي في مجال التصوير الرقمي."
+    image = "https://user-images.githubusercontent.com/12345/dr-ahmed.jpg" # صورة خارجية
+
+  # ✅ ماذا ستتعلم (Syllabus)
+  [[params.syllabus]]
+    icon = "fa-camera"
+    title = "إعدادات الكاميرا"
+    desc = "فهم الـ ISO, Aperture, Shutter Speed."
+  
+  [[params.syllabus]]
+    icon = "fa-lightbulb"
+    title = "إضاءة الاستوديو"
+    desc = "كيفية استخدام الـ Softbox والـ Twin Flash."
+
+  [[params.syllabus]]
+    icon = "fa-laptop"
+    title = "تعديل الصور"
+    desc = "معالجة الصور وتجهيزها للعرض (Presentation)."
+
+  # 🖼️ صور من كورسات سابقة (Gallery)
+  [[params.gallery_items]]
+    image = "https://user-images.githubusercontent.com/12345/workshop1.jpg"
+    title = "ورشة العمل السابقة"
+    category = "Hands-on"
+
+  [[params.gallery_items]]
+    image = "https://user-images.githubusercontent.com/12345/workshop2.jpg"
+    title = "تطبيق عملي"
+    category = "Lecture"
