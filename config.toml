@@ -39,7 +39,7 @@ theme = []
     name = "د/ محمد سلامة"
     title = "عضو الجمعية الأمريكية لتجميل الأسنان (AACD)"
     bio = "خبرة 15 عاماً في طب الأسنان التجميلي، ومحاضر دولي في مجال التصوير الرقمي."
-    image = "https://user-images.githubusercontent.com/12345/dr-ahmed.jpg" # صورة خارجية
+    image = "https://github.com/user-attachments/assets/d8f7bf93-e994-49f2-8286-89381db7f54e" # صورة خارجية
 
   # ✅ ماذا ستتعلم (Syllabus)
   [[params.syllabus]]
@@ -59,11 +59,11 @@ theme = []
 
   # 🖼️ صور من كورسات سابقة (Gallery)
   [[params.gallery_items]]
-    image = "https://user-images.githubusercontent.com/12345/workshop1.jpg"
+    image = "https://github.com/user-attachments/assets/270d2138-58ee-4b64-b060-51439682c4f6"
     title = "ورشة العمل السابقة"
     category = "Hands-on"
 
   [[params.gallery_items]]
-    image = "https://user-images.githubusercontent.com/12345/workshop2.jpg"
+    image = "https://github.com/user-attachments/assets/675826af-bd83-4b68-abe3-35c8033484d4"
     title = "تطبيق عملي"
     category = "Lecture"
